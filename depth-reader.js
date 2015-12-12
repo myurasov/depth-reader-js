@@ -1,3 +1,5 @@
+'format global';
+
 /*!
  * MIT Licensed
  * https://github.com/IntelRealSense/depth-reader-js
