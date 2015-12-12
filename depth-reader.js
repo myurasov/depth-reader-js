@@ -17,7 +17,7 @@
     , Canvas
     , Image;
 
-  if ('object' === typeof exports) { // Node.js
+  if (window === undefined) { // Node.js
     xhrResType     = 'buffer';
     Promise        = require('rsvp').Promise;
     XMLHttpRequest = require('xhr2');
